@@ -84,7 +84,7 @@ export default function Navbar() {
                 )
               })}
               <div className="bg-gradient-to-r from-slate-900 via-teal-900 to-slate-900 rounded-md px-3 pb-1 text-white tracking-wide max-w-max">
-                <a href="/Rutuja-Ghogare-Resume.pdf" alt= "Resume"
+                <a href="/Rutuja-Ghogare-Resume.pdf" title = "Resume"
                   target="_blank"
                   rel="noopener noreferrer">Resume</a>
               </div>
