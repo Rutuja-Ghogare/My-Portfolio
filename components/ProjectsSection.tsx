@@ -6,9 +6,9 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Trader Joe's",
+    name: "Trader Joes",
     description:
-      "•	Developed a full-stack web application for Trader Joe’s using the MERN stack",
+      "Developed a full-stack web application for Trader Joe’s using the MERN stack",
     image: "/Traderjoes.png",
     github: "https://github.com/AditiChikkali/Ecommerce_Website",
     link: "https://ecommerce-jg5e.onrender.com",
@@ -36,7 +36,7 @@ const projects = [
     link: "https://github.com/Rutuja1805/HealthPlus_Services",
   },
   {
-    name: "Rutuja's To-do List",
+    name: "To-do List",
     description:
       "A To-do list using react for managing our daily tasks.",
     image: "/todo.png",
