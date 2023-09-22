@@ -1,8 +1,10 @@
 "use client" // this is a client component
 import React from "react"
 import Image from "next/image"
-import { Link } from "react-scroll/modules"
+import { Link } from "react-scroll"
 import { HiArrowDown } from "react-icons/hi"
+// import { Link } from 'react-scroll';
+
 
 const HeroSection = () => {
   return (
@@ -28,16 +30,16 @@ const HeroSection = () => {
             Graduate Student at Northeastern University, Boston
           </p>
           <Link
-            to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-          >
-            Projects
-          </Link>
+  to="projects"
+  className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+  activeClass="active"
+  spy={true}
+  smooth={true}
+  offset={-100}
+  duration={500}
+>
+  Projects
+</Link>
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">
