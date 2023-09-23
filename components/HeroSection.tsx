@@ -24,7 +24,7 @@ const HeroSection = () => {
             <span className="font-semibold text-teal-600">
               Full Stack Developer,{" "}
             </span>
-            Graduate Student at Northeastern University, Boston
+            Graduate Student at Northeastern University. Boston
           </p>
           <Link
             to="projects"
