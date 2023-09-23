@@ -7,11 +7,11 @@ import { HiArrowDown } from "react-icons/hi"
 const HeroSection = () => {
   return (
     <section id="home">
-      <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
+      <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-9 md:py-20 md:flex-row md:space-x-4 md:text-left">
         <div className="md:mt-2 md:w-1/2">
           <Image
             src="/headshot.jpeg"
-            alt="my image"
+            alt=""
             width={325}
             height={325}
             className="rounded-full shadow-2xl"
@@ -22,13 +22,13 @@ const HeroSection = () => {
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
             <span className="font-semibold text-teal-600">
-              Full Stack Developer,{" "}
+              FullStack Developer{" "}
             </span>
-            Graduate Student at Northeastern University. Boston
+            Graduate Student at Northeastern University Boston.
           </p>
           <Link
             to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 cursor-pointer"
             activeClass="active"
             spy={true}
             smooth={true}
@@ -48,11 +48,9 @@ const HeroSection = () => {
           offset={-100}
           duration={500}
         >
-          <HiArrowDown size={35} className="animate-bounce" />
+          <HiArrowDown size={35} className="animate-bounce cursor-pointer" />
         </Link>
-        
       </div>
-      
     </section>
   )
 }
