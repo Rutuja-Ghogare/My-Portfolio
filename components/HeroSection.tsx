@@ -1,7 +1,7 @@
 "use client" // this is a client component
 import React from "react"
 import Image from "next/image"
-import { Link } from "react-scroll/modules"
+import { Link } from "react-scroll"
 import { HiArrowDown } from "react-icons/hi"
 
 const HeroSection = () => {
@@ -24,7 +24,6 @@ const HeroSection = () => {
             <span className="font-semibold text-teal-600">
               Full Stack Developer,{" "}
             </span>
-            
             Graduate Student at Northeastern University, Boston
           </p>
           <Link
